@@ -1,0 +1,45 @@
+html{
+	width: 100%;
+}
+
+body{
+	margin: 1rem;
+	background-color: black;
+	color:#dfd9ff;
+	font-size: 5rem;
+	overflow: hidden;
+
+	background: url("/assets/stars.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
+.grid-container{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+	margin: 0.5% 4rem 0 4rem;
+
+}
+
+.last{
+	padding-bottom: 0.5rem;
+	border-bottom: 2px dashed #c9c0ff;
+} 
+
+div{
+	
+    /* font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal; */
+
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+    
+    transition-property: transform;
+	transition-duration: 3s;
+}
